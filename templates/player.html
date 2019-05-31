@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>cinema</title>
+<link rel="stylesheet" href="/static/style/DPlayer.min.css">
+<link rel="stylesheet" type="text/css" href="/static/style/demo.css">
+<style>
+    body {
+      text-rendering: auto;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="row main">
+        <div class="col-md-12">
+            <h2 class="top_title">
+                <span class="glyphicon glyphicon-menu-left" aria-hidden="true">
+                </span>
+                Local Cinema
+            </h2>
+            <div class="container" style="width: 70%; height: 100%; margin: 70px auto">
+                <div id="dplayer" style="z-index: 10">
+                    
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/static/js/DPlayer.min.js"></script>
+<script src="/static/js/docsearch.js"></script>
+<script src="/static/js/evanyou.min.js"></script>
+<script src="/static/js/docute.js"></script>
+<script src="/static/js/config.js"></script>
+
+<script>
+
+
+const dp = new DPlayer({
+    container: document.getElementById('dplayer'),
+    autopaly:true,
+    lang:'zh-cn',
+    preload:'auto',
+    screenshot: false,
+    video: {
+        url: '{{video_path}}',
+        type: 'auto'
+    }
+    // subtitle: {
+    //     url: 'webvtt.vtt'
+    // },
+    // danmaku: {
+    //     id: 'demo',
+    //     api: 'https://api.prprpr.me/dplayer/'
+    // }
+});
+</script>
+</body>
+</html>

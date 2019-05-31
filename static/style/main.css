@@ -1,0 +1,46 @@
+﻿/*reset*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font: 14px/100% "Microsoft YaHei",arial,"Hiragino Sans GB","Hiragino Sans GB W3",\5b8b\4f53;background-color: #eff0f0; }
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration:none;color: #333;}
+
+.l{ float: left;}
+.r{ float: right;}
+.clearfix:after{content:".";visibility:hidden;display:block;height:0;clear:both;}
+.clearfix{zoom:1;}
+
+
+
+/*居中*/
+.container{
+    margin: 0 auto;
+    position: relative;
+}
+/*图片容器*/
+.box{
+    position: relative;
+    float: left;
+}
+.content{
+    margin: 10px;
+    padding: 10px;
+    border:1px solid #ccc;
+    box-shadow: 0 0 2px inset;
+    border-radius: 5px;
+}
+.content img{
+    width:190px;
+    height: 190px;
+    /*height: auto;*/
+}
+
+.desc{
+    text-align: center;
+    white-space: nowrap ;
+    max-width: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
