@@ -1,4 +1,4 @@
-# LAN-web-video-player
+# LAN-web-video-player（局域网视频网站部署方案）
 
 install python3 and flask module
 
