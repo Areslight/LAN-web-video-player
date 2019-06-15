@@ -14,3 +14,8 @@ if your port 8888 is busy, change it in the last row of the server.py
 如果端口占用，在server.py 文件中最后一行修改port= 你空闲的端口  
 
 本项目使用了开源的播放器Dplayer， 在此对Dplayer的开发人员表示感谢 
+
+![image](https://github.com/Areslight/LAN-web-video-player/blob/master/images/20190615143815.jpg)  
+
+
+![image](https://github.com/Areslight/LAN-web-video-player/blob/master/images/20190615143805.png)
