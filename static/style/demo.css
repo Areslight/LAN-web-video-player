@@ -13,7 +13,7 @@ img{border:none}
 header{box-sizing: border-box;width: 100%;padding:10px;overflow: hidden;}
 .logo{width:240px; height:70px; background:url(../../images/logo.png) no-repeat 0 10px;text-indent:-999em;}
 .logo a{display:block; width:240px; height:70px}
-.main{border:1px solid #d3d3d3; border-radius:5px;background:#fff;}
+.main{border:1px solid #d3d3d3; border-radius:5px;background:#959595db;}
 
 h2.top_title{margin:4px 10px; padding-top:15px; padding-bottom:10px; border-bottom:1px solid #d3d3d3; font-size:18px; color:#007bc4;font-weight:bold}
 .optlist{margin:50px 10px;text-align:center;}
@@ -38,4 +38,12 @@ footer p a:hover{color:#51555C}
  .google_ad{width:100%; margin:40px auto; text-align:center}
 .ad_76090,.ad_demo{width:100%; height:auto; margin:40px auto;text-align:center}
 .demo{width:98%; margin:10px auto}
+}
+.light{
+	float: left;
+	width: 50px;
+}
+.lamb{
+	float: left;
+	width: 100%;
 }

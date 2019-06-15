@@ -19,7 +19,7 @@
 <body>
 
 <div class="container">
-    <div class="row main">
+    <div class="row main" id='back'>
         <div class="col-md-12">
             <h2 class="top_title">
                 <span class="glyphicon glyphicon-menu-left" aria-hidden="true">
@@ -27,6 +27,13 @@
                 Local Cinema
             </h2>
             <div class="container" style="width: 70%; height: 100%; margin: 70px auto">
+                <div class="light" style="margin-right: 10px">
+
+                    <img class="lamb" src="/static/icon/lamb.png" onclick="document.getElementById('back').style.background='#fff'">
+                    <img class="lamb" style="margin-top: 10px" src="/static/icon/off.png" onclick="document.getElementById('back').style.background='#959595db'">
+
+                </div>
+                
                 <div id="dplayer" style="z-index: 10">
                     
                 </div> 
@@ -37,8 +44,8 @@
 
 <script src="/static/js/DPlayer.min.js"></script>
 <script src="/static/js/docsearch.js"></script>
-<script src="/static/js/evanyou.min.js"></script>
-<script src="/static/js/docute.js"></script>
+<!-- <script src="/static/js/evanyou.min.js"></script>
+ --><script src="/static/js/docute.js"></script>
 <script src="/static/js/config.js"></script>
 
 <script>
