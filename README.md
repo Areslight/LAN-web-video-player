@@ -3,7 +3,9 @@
 [Install python3](https://realpython.com/installing-python/) and flask module if not done already.
 > Alternative I recommend to use pip, and add future requirements later on to the list
 
-`pip3 install requirements.txt`
+```
+pip3 install requirements.txt
+```
 
 Flask as the server, run the .py file and then you can watch the video online inside you LAN.  
 change directory to current directory and run the following command on one of your LAN computer:  
